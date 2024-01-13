@@ -1,0 +1,103 @@
+
+@import url('https://fonts.cdnfonts.com/css/norse');
+body{
+    display: flex;
+    font-family: 'Norse',sans-serif,system-ui;
+    margin: 0;
+}
+logo{
+    /* lets start with logo
+    1.center text v
+    2.slight opicty change v
+    3. add footer v
+    4.make background in the entirty of it  v
+    */
+    background-image:url(../img/iguazuimage.jfif);
+    min-width: 40vw;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#title{margin-top: 25vh; /* left side*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.5);
+   
+}
+#title img{
+    position: relative;
+    right: min(40px,1.5vw);
+}
+#title span{
+    color: white;
+    position: relative;
+    bottom: 5vh;
+    left: min(40px,1.5vw);
+}
+wrapper{/*wraps the title to mkae footer at foot*/
+    flex: 1; 
+    padding-bottom:  5vh;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+/* right side */
+content-form{
+    /*
+    1. start layout text wall with speration from top
+    and background color grey  v
+    2.form layout bck white  v
+    2.1 first name and l name first latter cpital
+    2.2 emaight and phone number copy from pre form i
+    did
+    2.3 password chcker and a confirm
+    2.4 submit button is outside the white bck check
+    online for selution
+    3.the redirect for thr log in
+    */ 
+     min-width: 60vw;
+     
+     height: 100%;
+     min-height: 100vh;
+     background-color: rgb(235, 235, 235);
+     display: flex;
+     flex-direction: column;
+    
+ }
+text-wall{
+    
+    width: max(500px,40vw);
+
+    margin-left: 6vw;
+    margin-top: 10vh;
+    line-height: 1.7;
+}
+#actual-form{
+    background-color: rgb(248, 248, 248);
+    height: 30vh;
+    display: flex;
+}
+form li{
+    margin-top: 3vh;
+}
+#submit{
+    background-color: rgb(0, 102, 36);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    border-radius: 15px;
+    height: 5vh;
+    border: 0px;
+    min-width: max(120px,11vw);
+    color: white;
+}
+#have-an-acc{
+    margin-left: 2vw;
+}
+
